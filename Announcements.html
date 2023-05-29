@@ -3,14 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="HTML5 Template">
-  <meta name="author" content="Author Name">
-  <title>HTML5 Template</title>
+  <meta name="Version1" content="Alex Wood">
+  <title>Ou walking group</title>
   <link rel="stylesheet" href="styles2.css">
 </head>
   <body>
     <div class="page-header">
     <div class="header">
-      <img src="/Users/alexwood/Documents/Computing Degree/Second Year/Web developement TT284/EMA Wireframe Resources-20230527l/PT3OULogo.png" alt="logo" />
+      <div id="oulogo"><a href="http://www.open.ac.uk" target="_blank"><img src="https://github.com/Alexwood6945/Ou_walking_club/blob/main/Ou%20logo_edit.png?raw=true" width="156" height="94" border="0" title="Open University Home Page" /></a>
+      </div>
         <h1>The OU Running Club</h1>
     </div>
     <div class="navbar">
@@ -20,14 +21,23 @@
           <a href="#about">News and other events</a>
           <a href="#about">Membership</a>
           <a href="#about">Announcements</a>
+          <a href="#about">About</a>
         </ul>
       </nav>
       </div>
     </div>
     <div class=subheader>
-      <p>Create a new announcement to be sent to current membrs signed up to an OU walking club membership.</p>
+      <ul class="subheadertext"> 
+         Create a new announcement to be sent to current membrs signed up to an OU walking club membership.
+        
+      </ul>
+
     </div>
-    <div class="form">
+
+    <div class="grid-container">
+
+      <div class="grid-child-form">
+         
       <form
       method="POST"
       action="https://students.open.ac.uk/mct/tt284/reflect/reflect.php"
@@ -90,8 +100,81 @@
       <label for="datesent">Date to send the email:</label>
       <input type="date" id="datesent" name="datesent">
       </p>
-
+      <p>
+        <input type="submit" name="submit" value="Submit" />
+      </p>
       </form>
     </div>
+    
+
+    <div class="grid-child-template">
+
+        
+        <div class="grid-template">
+          <div class="template-title">
+            <h1>Title</h1>
+          </div>
+          <div class="template-sender">
+            <h2>Sender</h2>
+          </div>
+          
+          <div class="teplate-image">
+            <img src="https://github.com/Alexwood6945/Ou_walking_club/blob/main/walk_woods_edit.jpg?raw=true">
+          </div>
+          <div class="template-body">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+          <div class="template-attachment">
+            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==">
+          </div>
+        </div>
+
+    </div>  
+  
+</div>
+   
+    </div>
+
+
+    <div class="form-popup" id="myForm">
+
+    <div class="row">
+    <ul>
+      <li><h1 class="bannertext">Become a member to recieve our weekly news letter </h1></li>
+    
+   
+      <li><a class="bannerlink" href="#about">Membership</a></li>
+    </ul>
+    </div>
+
+
+
+    
+  </form>
+</div>
+
+<footer>
+<div class="footer">
+<div class="row">
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-youtube"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+</div>
+
+<div class="row">
+<ul>
+<li><a href="#">Contact us</a></li>
+<li><a href="#">Our Services</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms & Conditions</a></li>
+</ul>
+</div>
+
+<div class="row">
+INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+</div>
+</div>
+</footer>
   </body>
 </html>
