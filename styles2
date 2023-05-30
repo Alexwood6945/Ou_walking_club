@@ -1,4 +1,7 @@
 
+  font-family: open sans;
+}
+
 .header h1 {
   font-size: 55px;
   color: darkblue;
@@ -7,8 +10,9 @@
   top: 18px;
   left: 100px;
 
-  padding: 12px 20px;
+padding: 12px 20px;
   box-sizing: border-box;
+  border: 2px solid #ccc;
   border-radius: 4px;
   
   
