@@ -1,3 +1,6 @@
+.body{
+  font-family: open sans;
+}
 
 .header h1 {
   font-size: 55px;
@@ -7,7 +10,10 @@
   top: 18px;
   left: 100px;
 
-
+padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
   
   
 }
@@ -69,7 +75,7 @@
   font-size: 1.2em;
   text-align: left;
   color: black;
-  background: #2196F3;
+  background: #6495ED;
   opacity: 0.8;
 
 
@@ -86,6 +92,53 @@
   background-color: lightblue;
   opacity: 0.9;
   padding-left: 40px;
+
+}
+
+.formstyle {
+  width: 30%;
+  height: 15px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+
+  resize: none;
+}
+
+.buttonstyle {
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea {
+  width: 92%;
+  height: 250px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+.formtitle {
+  width: 92%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
 
 
 
